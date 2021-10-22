@@ -86,11 +86,11 @@ main{
 /* FOOTER */
 footer{
     background-color: #222222;
-    height: 100px;
+    height: 90px;
 }
 
 .user-interface{
-    margin: 10px;
+    margin: 10px 0 10px 10px;
     height: 100%;
 }
 
@@ -126,13 +126,12 @@ footer{
 .end-btn{
     justify-content: flex-end;
     width: 25%;
-    align-items: center;
-    align-content: center;
-    height: 100%;
 }
 
-.lol a{
+.end-btn a {
+    align-items: center;
+    align-self: stretch;
     background-color: #4a4a4a;
-    height: 100%;
-    display: block;
+    padding: 0 20px;
+    color: #b72b36;
 }
