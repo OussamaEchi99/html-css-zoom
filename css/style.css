@@ -94,6 +94,10 @@ footer{
     height: 100%;
 }
 
+.user-interface div a{
+    margin: 3px 0;
+}
+
 .microphone-webcam{
     justify-content: flex-start;
     align-items: center;
@@ -109,4 +113,26 @@ footer{
     align-content: center;
     align-items: center;
     width: 50%;
+}
+
+.manage-interface > *{
+    margin: 0 10px;
+}
+
+.share-screen i{
+    color: #4bc800;
+}
+
+.end-btn{
+    justify-content: flex-end;
+    width: 25%;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.lol a{
+    background-color: #4a4a4a;
+    height: 100%;
+    display: block;
 }
