@@ -1,0 +1,112 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flexstart-center{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* HEADER */
+header{
+    margin: 15px 5px;
+    text-align: end;
+}
+
+header a{
+    padding: 5px 7px;
+    background-color: #4a4a4a;
+    border-radius: 8px;
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.users{
+    width: calc((100% / 7) - 20px);
+    position: relative;
+    margin: 5px 3px;
+}
+
+.users img{
+    width: 100%;
+}
+
+.user-name-microphone{
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+
+.user-name-microphone a{
+    background-color: rgba(74, 74, 74, 0.5);
+    padding: 5px 7px;
+}
+/* FOOTER */
+footer{
+    background-color: #222222;
+    height: 100px;
+}
+
+.user-interface{
+    margin: 10px;
+    height: 100%;
+}
+
+.microphone-webcam{
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+.microphone-webcam > *{
+    margin: 0 10px;
+}
+
+.manage-interface{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+}
